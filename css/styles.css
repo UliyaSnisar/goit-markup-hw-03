@@ -115,6 +115,11 @@ body{
 
 /* HERO секция */
 
+.hero{
+    padding-top: 200px;
+    padding-bottom: 280px;
+}
+
 .hero-title{
     font-family: var(--main-font);
     font-weight: 900;
@@ -125,12 +130,23 @@ body{
     text-transform: uppercase;
     background: rgba(47, 48, 58, 0.8);
     color: var(--white-color);
+    margin-bottom: 30px;
 }
 
 .modal-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
     background: var(--acent-color);
     color: var(--white-color);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
 }
+
 
 /* о нас */
 

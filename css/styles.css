@@ -148,7 +148,34 @@ body{
 }
 
 
-/* о нас */
+/* О нас */
+
+.abot-us{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.description-list{
+    display: flex;
+    justify-content: space-between;
+   }
+
+.discription-list-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.discription-image{
+    width: 70px;
+    height: 70px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    align-items: center;
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
 
 .description-subtitle{
     font-weight: 700;
@@ -157,7 +184,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-color);
-
+    margin-bottom: 30px;
 }
 
 .description-list-item{

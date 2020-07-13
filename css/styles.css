@@ -5,6 +5,8 @@
     --main-color: #757575;
     --acent-color: #2196F3;
     --white-color: #ffffff;
+    --secondary-background-color: #F5F4FA;
+    --footer-background-color: #2F303A;
 }
 
 body{
@@ -158,6 +160,9 @@ body{
 .description-list{
     display: flex;
     justify-content: space-between;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
    }
 
 .discription-list-item:not(:last-child){
@@ -198,7 +203,18 @@ body{
     color: var(--main-color);
 }
 
-/* чем мы занимаемся */
+/* Чем мы занимаемся */
+.services{
+    padding-bottom: 94px;
+}
+
+.services-list{
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 .subtitle{
     font-weight: 700;
@@ -207,6 +223,12 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.services-list-item:not(:last-child){
+    margin-right: 30px;
 }
 
 .caption{
@@ -223,6 +245,27 @@ body{
 }
 
 /* наша команда */
+.team{
+    background-color: var(--secondary-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-list{
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.team-list-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.team-image{
+    margin-bottom: 30px;
+}
 
 .team-list-item-subtitle{
     font-weight: 500;
@@ -231,6 +274,8 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .team-position{
@@ -239,22 +284,90 @@ body{
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.social-list{
+    display: flex;
+}
+
+.social-link-item:not(:last-child){
+    margin-right: 10px;
+    width: 44px;
 }
 
 /* постоянные клиенты */
 
+.customers{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.customers-list{
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.customers-list-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.customer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    left: 215px;
+    top: 2487px;
+
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
 /* footer */
 
+.footer{
+    background-color: var(--footer-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer .container{
+    display: flex;
+    
+}
+
 .footer .logo{
+    display: block;
     color: var(--white-color);
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+
+.footer-address{
+    margin-right: 69px;
+}
+
+.footer-list{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .footer-address-list-item{
+    display: block;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--white-color);
+    margin-bottom: 9px;
 }
 
 .footer-main-link,
@@ -266,6 +379,24 @@ body{
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-main-link{
+    display: block;
+    padding-bottom: 9px;
+}
+
+.footer .caption{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.footer-social-list{
+    display: flex;
+    padding-left: 0px;
+}
+
+.footer-social-list-item:not(:last-child){
+    margin-right: 10px;
+}
 /* СТИЛИ СТРАНИЧКИ ПОРТФОЛИО */
 
 .filter-list-item{

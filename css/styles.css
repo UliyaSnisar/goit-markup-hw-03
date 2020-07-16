@@ -48,7 +48,6 @@ body{
 
 .link{
     text-decoration: none;
-    display: block;
 }
 
 .list{
@@ -82,6 +81,11 @@ body{
 }
 
 .navigation-list-link{
+    display: block;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: var(--title-color);
 }
 
@@ -94,14 +98,11 @@ body{
     color: var(--acent-color);
 }
 
-.navigation-list-link{
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
-
 .address-menu{
     display: flex;
     align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .header-tel-link,
@@ -109,11 +110,18 @@ body{
     color: var(--main-color);
 }
 
-.header-main-link{
-    margin-right: 30px;
+.header-tel-link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
-
+.header-main-link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 30px;
+}
 
 /* HERO секция */
 
@@ -127,9 +135,11 @@ body{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
     background: rgba(47, 48, 58, 0.8);
     color: var(--white-color);
     margin-bottom: 30px;
@@ -139,10 +149,12 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+
     width: 200px;
     height: 50px;
     background: var(--acent-color);
     color: var(--white-color);
+
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
@@ -160,6 +172,7 @@ body{
 .description-list{
     display: flex;
     justify-content: space-between;
+
     padding-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -172,9 +185,11 @@ body{
 .discription-image{
     width: 70px;
     height: 70px;
+
     background: #F5F4FA;
     border-radius: 4px;
     align-items: center;
+
     padding-top: 25px;
     padding-right: 100px;
     padding-bottom: 25px;
@@ -188,6 +203,7 @@ body{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
     color: var(--title-color);
     margin-bottom: 30px;
 }
@@ -211,6 +227,7 @@ body{
 .services-list{
     display: flex;
     justify-content: center;
+
     padding-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -221,8 +238,10 @@ body{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+
     letter-spacing: 0.03em;
     color: var(--title-color);
+
     margin-top: 0px;
     margin-bottom: 50px;
 }
@@ -237,6 +256,7 @@ body{
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
     color: var(--white-color);
 }
 
@@ -247,6 +267,7 @@ body{
 /* наша команда */
 .team{
     background-color: var(--secondary-background-color);
+
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -254,6 +275,7 @@ body{
 .team-list{
     display: flex;
     justify-content: center;
+
     padding-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -273,7 +295,9 @@ body{
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+
     color: var(--title-color);
+
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -284,6 +308,7 @@ body{
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+
     margin-top: 0px;
     margin-bottom: 16px;
 }
@@ -307,6 +332,7 @@ body{
 .customers-list{
     display: flex;
     justify-content: center;
+
     padding-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -320,6 +346,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 170px;
     height: 90px;
     left: 215px;
@@ -334,18 +361,19 @@ body{
 
 .footer{
     background-color: var(--footer-background-color);
+
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
 .footer .container{
     display: flex;
-    
 }
 
 .footer .logo{
     display: block;
     color: var(--white-color);
+
     margin-bottom: 20px;
     margin-right: 0px;
 }
@@ -366,7 +394,9 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
     color: var(--white-color);
+
     margin-bottom: 9px;
 }
 
@@ -376,6 +406,7 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -399,17 +430,31 @@ body{
 }
 /* СТИЛИ СТРАНИЧКИ ПОРТФОЛИО */
 
-.filter-list-item{
+.filer-list{
+    display: flex;
+    justify-content: center;
+    padding-top: 93px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.filter-list-item:not(:last-child){
+    margin-right: 8px;
+}
+
+.filter-button{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+
     color: var(--title-color);
 }
 
-.filter-list-item:hover,
-.filter-list-item:focus{
+.filter-button:hover,
+.filter-button:focus{
     background: var(--acent-color);
     color: var(--white-color);
 }
@@ -419,6 +464,7 @@ body{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+
     color: var(--title-color);
 }
 
@@ -428,5 +474,6 @@ body{
     line-height: 1.87;
     letter-spacing: 0.03em;
     text-align: center;
+
     color: var(--main-color);
 }

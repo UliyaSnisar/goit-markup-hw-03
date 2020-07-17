@@ -103,8 +103,6 @@ body{
 .address-menu{
     display: flex;
     align-items: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
 }
 
 .header-tel-link,
@@ -171,6 +169,10 @@ body{
     padding-top: 94px;
 }
 
+.abut-us-title{
+    margin: 0;
+}
+
 .description-list{
     display: flex;
     justify-content: space-between;
@@ -207,6 +209,8 @@ body{
 }
 
 .description-list-item{
+    margin: 0;
+
     font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
@@ -251,6 +255,8 @@ body{
 }
 
 .caption{
+    margin: 0;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
